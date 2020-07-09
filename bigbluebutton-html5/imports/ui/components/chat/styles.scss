@@ -108,7 +108,7 @@
 .userNameMessage {
   margin: 0;
   font-size: var(--toast-font-size);
-  color: var(--color-gray-dark);
+  color: var(--color-primary);
   font-weight: bold;
   background-color: inherit;
   @include lineClamp(1em, 1);
