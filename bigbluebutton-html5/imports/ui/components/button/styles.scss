@@ -8,9 +8,9 @@
 :root {
   --btn-default-color: var(--color-gray);
   --btn-default-bg: var(--color-white);
-  --btn-default-border: var(--color-white);
+  --btn-default-border: var(--color-gray-dark);
 
-  --btn-primary-color: var(--color-white);
+  --btn-primary-color: var(--color-gray-dark);
   --btn-primary-bg: var(--color-primary);
   --btn-primary-border: var(--color-primary);
 
@@ -141,7 +141,8 @@
     opacity: .85;
     display: block;
     margin-top: var(--btn-spacing);
-    color: #fff;
+//    color: #fff;
+    color: #fed86f;
     font-weight: normal;
     line-height: 1.5;
     text-align: center;
