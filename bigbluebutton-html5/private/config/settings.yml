@@ -18,7 +18,7 @@ public:
     basename: "/html5client"
     askForFeedbackOnLogout: false
     allowUserLookup: false
-    enableNetworkInformation: false
+    enableNetworkInformation: true
     enableLimitOfViewersInWebcam: false
     enableTalkingIndicator: true
     viewersInWebcam: 8
@@ -69,7 +69,7 @@ public:
         accesskey: A
         descId: openActions
     branding:
-      displayBrandingArea: false
+      displayBrandingArea: true
     connectionTimeout: 60000
     showHelpButton: true
     effectiveConnection:
@@ -82,7 +82,7 @@ public:
     enableNetworkMonitoring: false
     packetLostThreshold: 10
   kurento:
-    wsUrl: wss://join.ymeet.us/bbb-webrtc-sfu
+    wsUrl: wss://beta.ymeet.us/bbb-webrtc-sfu
     chromeDefaultExtensionKey: akgoaoikmbmhcopjgakkcepdgdgkjfbc
     chromeDefaultExtensionLink: https://chrome.google.com/webstore/detail/bigbluebutton-screenshare/akgoaoikmbmhcopjgakkcepdgdgkjfbc
     chromeExtensionKey: KEY
@@ -124,7 +124,7 @@ public:
     enableVideoStats: false
     enableVideoMenu: true
     enableListenOnly: true
-    autoShareWebcam: false
+    autoShareWebcam: true
     skipVideoPreview: false
   pingPong:
     clearUsersInSeconds: 180
@@ -166,11 +166,11 @@ public:
       enabled: true
   note:
     enabled: true
-    url: https://join.ymeet.us/pad
+    url: https://beta.ymeet.us/pad
     config:
-      showLineNumbers: false
+      showLineNumbers: true
       showChat: false
-      noColors: true
+      noColors: false
       showControls: true
       rtl: false
   layout:
