@@ -12,7 +12,7 @@ public:
     bbbServerVersion: 2.2
     copyright: "©2020 YMeet LLC"
     html5ClientBuild: 924
-    helpLink: https://ymeet.co/help/
+    helpLink: https://ymeet.us/help/
     lockOnJoin: true
     cdn: ""
     basename: "/html5client"
@@ -82,7 +82,7 @@ public:
     enableNetworkMonitoring: false
     packetLostThreshold: 10
   kurento:
-    wsUrl: wss://beta.ymeet.us/bbb-webrtc-sfu
+    wsUrl: wss://ymeet.in/bbb-webrtc-sfu
     chromeDefaultExtensionKey: akgoaoikmbmhcopjgakkcepdgdgkjfbc
     chromeDefaultExtensionLink: https://chrome.google.com/webstore/detail/bigbluebutton-screenshare/akgoaoikmbmhcopjgakkcepdgdgkjfbc
     chromeExtensionKey: KEY
@@ -166,7 +166,7 @@ public:
       enabled: true
   note:
     enabled: true
-    url: https://beta.ymeet.us/pad
+    url: https://ymeet.in/pad
     config:
       showLineNumbers: true
       showChat: false

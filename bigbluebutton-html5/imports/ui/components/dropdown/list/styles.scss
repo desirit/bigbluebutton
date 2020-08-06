@@ -83,7 +83,7 @@
     @include highContrastOutline();
     cursor: pointer;
     background-color: var(--color-primary);
-    color: var(--color-white);
+    color: var(--color-gray);
 
     .verticalList & {
       margin-left: -.25rem;
@@ -127,7 +127,7 @@
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-white), 0 0 2px 4px rgba(var(--color-primary), .4);
+    box-shadow: 0 0 0 2px var(--color-gray-dark), 0 0 2px 4px rgba(var(--color-primary), .4);
     outline-style: solid;
   }
 }

@@ -87,7 +87,7 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 }
 
 .randomlyAssignBtn {
-  color: var(--color-primary);
+  color: var(--color-orange);
   font-size: var(--font-size-small);
   white-space: nowrap;
   margin: 0 auto 0 0;
@@ -175,7 +175,7 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 
 .selectedItem {
   background-color: var(--color-primary);
-  color: var(--color-white)
+  color: var(--color-gray-dark)
 }
 
 /* mobile */

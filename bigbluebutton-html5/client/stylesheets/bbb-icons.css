@@ -274,6 +274,7 @@
   content: "\e953";
 }
 .icon-bbb-minus:before {
+  color: "#467fd0ff";
   content: "\e954";
 }
 .icon-bbb-download-off:before {

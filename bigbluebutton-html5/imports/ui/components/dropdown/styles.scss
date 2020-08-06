@@ -98,7 +98,7 @@
   font-size: calc(var(--font-size-large) * 1.1);
   width: calc(100% - (var(--line-height-computed) * 2));
   left: var(--line-height-computed);
-  box-shadow: 0 0 0 2rem var(--color-white) !important;
+  box-shadow: 0 0 0 2rem var(--color-gray) !important;
   border: var(--color-white) !important;
 
   @include mq($small-only) {
